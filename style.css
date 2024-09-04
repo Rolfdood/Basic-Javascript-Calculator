@@ -55,17 +55,6 @@ td {
   color: white;
 }
 
-.calc-op{
-  width: 100%;
-  padding: 15px;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: hsl(241, 67%, 48%);
-  color: white;
-}
-
 .calc-C{
   width: 100%;
   padding: 15px;
@@ -73,10 +62,14 @@ td {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: hsl(0, 94%, 35%);
+  background-color: #ff0000;
   color: white;
 }
 
-.calc-btn:hover {
+.calc-btn:hover{
   background-color: #555;
+}
+
+.calc-C:hover{
+  background-color: #ff3b3b;
 }
